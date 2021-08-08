@@ -67,7 +67,26 @@
 
                 margin-top: 16px;
 
-                span {
+                .user-info {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 32px;
+                        height: 32px;
+
+                        border-radius: 50%;
+                    }
+
+                    span {
+                        color: #29292e;
+                        margin-left: 8px;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+
+                > span {
                     color: #737380;
                     font-size: 14px;
                     font-weight: 500;
